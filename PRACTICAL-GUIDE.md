@@ -80,15 +80,7 @@ You will be working with a pre-built _docker_ image that contains all the softwa
 
 > **IMPORTANT WARNING: In general, bioinformatics programs for manipulating and analysing genomic data are only available for Linux (and to a lesser extent for MacOS). It is strongly recommended to switch to a Unix-based operating system to work with omics data**.
 
-First, you can create the docker group and add your user:
-   
-   ```bash
-   sudo groupadd docker
-   sudo usermod -aG docker <USER>
-   newgrp docker
-   ```
-
-Then, download the image form the Docker hub:
+First, download the image form the Docker hub:
 
    ```bash
    docker pull asancheg/cg-mbiod:r160323v2
