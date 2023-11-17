@@ -1,6 +1,7 @@
 <p align="left">
-<img src="http://www.ub.edu/certfem/CG-Master/logo2.png" width="300" height="130"><img align="right" src="http://www.ub.edu/molevol/CG-Master/master2.png" width="400" height="80">  
+<img align="right" src="http://www.ub.edu/molevol/CG-Master/master2.png" width="400" height="80">  
 </p>
+<img src="http://www.ub.edu/certfem/CG-Master/logo2.png" width="300" height="130">
 
 
 # Comparative Genomics 2023
