@@ -3,18 +3,19 @@
 </p>
 
 
-# Comparative Genomics
-## Computer lab 3: Selection analyses in Omicron BA.1 lineage
+# Comparative Genomics 2023
 
-Instructor: **Alejandro Sánchez**  
+## Computer lab 
+
+Instructors: **Marta Riutort & Alejandro Sánchez**  
 
 </br>
 
 ## Introduction
 
-The objective of this practice is to increase your understanding of the main concepts behind inference of selection at the molecular level by doing some practical work with a small representation (just a few examples) of the state-of-the-art computational tools to estimate phylogenetic relationships between genes and genomes, and to determine the functional consequences of mutations in these sequences. This fundamental knowledge has great importance and applicability in genetic and biomedical research, and in biodiversity studies.
+The objective of these sessions is to increase your understanding of the main concepts behind evolutionary inference by doing some practical work with a small representation (just a few examples) of the state-of-the-art computational tools to estimate phylogenetic relationships between genes or genomes, and to infer the functional consequences of mutations in these sequences. This fundamental knowledge has great importance and applicability in genetic and biomedical research, and in biodiversity studies.
 
-The biological model used in this practices is the BA.1 sublineage of the SARS-CoV2 variant of concern (VOC) Omicron.
+The biological model used in this practices are **sarbecoviruses**, and more specifically, a group of viruses closely related with SARS-Cov2 (the the type 2 coronavirus that causes severe acute respiratory syndrome) (part 1), and the BA.1 sublineage of the SARS-CoV2 variant of concern (VOC) named as (the original) **Omicron** (part 2).
 
 </br>
 </br>
