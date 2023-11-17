@@ -254,6 +254,8 @@ To visualize json results use [hyphy-vision tool](http://vision.hyphy.org/)
 
 <p><strong>Doubts?</strong></p>
 
-Contact A. Sánchez: elsanchez(at)ub.edu 
+Contact: 
+M.Riutort: mriutort(at)ub.edu
+A. Sánchez: elsanchez(at)ub.edu 
 
 
