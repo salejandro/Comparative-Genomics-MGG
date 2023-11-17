@@ -29,7 +29,9 @@ Helicase, *__S: spike__*. Modified from [Zang et al. (2021)](https://www.nature.
 
 </br>
 
-In the first part of this practice you will reconstruct the phylogenetic relationships of the surveyed sequences. Due to the mosaic nature of the genomes of viruses such as the SARS-CoV2, which originated after recombination between different strains of Sarbecoviruses, it is highly recomendable to use the local tree of the region studied rather than all the genomes to built the phylogenetic tree for the selection analyses ([Temmam et al. 2022](https://www.nature.com/articles/s41586-022-04532-4)). Here, you will reconstruct the gene tree of the S-gene with most informative sequences. In the second part, you will estimate the effect on virus fitness of the missense mutations (amino acid replacements) accumulated in the sublineage BA.1 of Omicron, and compare this effect with the estimated impact for the same positions prior to the emergence of this VOC (all SARS-CoV-2 near full-length genome sequences present in GISAID on 21/11/2021 that passed some quality control checks; [Martin et al. 2022](https://academic.oup.com/mbe/article/39/4/msac061/6553617)). This analysis in an example of how the accumulation of mutations with individual fitness costs but adaptive in combination with other mutations, could alter the function of a protein (Spike), while remained completely undetected despite unprecedented global genomic surveillance efforts.
+In the first part of this practice, you will reconstruct the phylogenetic relationships of a group of sarbecoviruses using different markers (i.e. different virus genes). This analysis is very illustrative of the different evolutionary rates of viral genes, as well as of the mosaic nature of the genomes of viruses such as the SARS-CoV2, which originated after recombination between different strains of sarbecoviruses. 
+
+In the second part, you will first infer the effect on virus fitness of the missense mutations (amino acid replacements) accumulated in the sublineage BA.1 of Omicro. Then, you will compare this effect with the impact of missense mutations in the same positions but prior to the emergence of this variant (i.e., all SARS-CoV-2 near full-length genome sequences of all previous variants, which were present in GISAID on 21/11/2021 and that passed some quality control checks; [Martin et al. 2022](https://academic.oup.com/mbe/article/39/4/msac061/6553617)). This analysis in an example of how the accumulation of mutations with individual fitness costs (deleterious effects) but adaptive when appear in combination with other neutral or deleterious mutations, could alter the function of a protein (Spike) while remained completely undetected despite the unprecedented global genomic surveillance efforts..
 
 </br>
 </br>
@@ -44,18 +46,34 @@ In the first part of this practice you will reconstruct the phylogenetic relatio
 
 ---
 
-## Unix based OS
+## The command line terminal (CLT)
 
-If you are not familiarized with the terminal app in Unix based operating systems, please take a look at these introductory manuals:
+If you are not familiarized with the terminal app in Linux based operating systems, please take a look at this [introductory manual](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 
-   + [Linux](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-   + [Mac](https://support.apple.com/en-in/guide/terminal/welcome/mac)
+## Data
 
-## Software and Data
+The genome sequences for this practice were retrieved either from [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) or [GISAID](https://gisaid.org/) databases and correspond to:
 
-Before starting the practice, please confirm that you have installed `Docker` in your computer (you can find system requirements and regular installation instructions [here](https://docs.docker.com/engine/install/ubuntu/). The reason for installing `Docker` and working within a container of a prebuilt image based on a conda environment is to perform the computer lab in a stable environment with a specific `Python` version (3.9), as well as to avoid the complexity of software (iqtree, raxml-ng or hyphy) compilation on different operating systems with different configurations.
+1.  The genomic sequences of the 17 sarbecoviruses used for Figure 1 in [Temmam et al. (2022)](https://www.nature.com/articles/s41586-022-04532-4)
 
-Once `Docker` is installed and working correctly, it is time to download the image with which you will work in this practice. Open the terminal app in your computer and type:
+2.  A subset of 4717 high-quality genomes of the BA.1
+variant (Omicron) collected world wide between 05/01/2020 and 22/06/2022. You can find the metadata associated with these genomes in the file BA.1.metadata, and the instructions for retrieve these sequences in the file [GISAID-BA.1-sequences.md](https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/omicron_seqs.md).
+
+### Data files availability:
+
+All genome sequences will be available in the _/data_ folder of the docker image (see below). 
+
+___
+
+## Installing the software
+
+Before starting the exercise, **you must confirm that you have _Docker Engine_ installed on your computer**. System requirements and regular installation instructions can be found [here](https://docs.docker.com/engine/install/). 
+
+> Do not forget to enable the WSL 2 feature on Windows-based laptops.
+
+You will be working with a pre-built _docker_ image that contains all the software and tools you need to complete the exercises. The reason for using _docker_ is to work in a homogeneous and stable computing environment with a specific `Python` version (3.9), which is a requirement for some of the tools you will use in the exercises, and to avoid the complex (and often problematic) compilation and installation of main programs (iqtree, raxml-ng or hyphy) on different operating systems with different configurations.
+
+**IMPORTANT WARNING: In general, bioinformatics programs for manipulating and analysing genomic data are only available for Linux (and to a lesser extent for MacOS). It is strongly recommended to switch to a Unix-based operating system to work with omics data.
 
 First, you can create the docker group and add your user:
    
@@ -98,18 +116,12 @@ Now, you can run a container to do the work of this practice:
 
 **IMPORTANT WARNING: Many of the tools that will be used in this practice are not available for Windows operating systems, even when conda (anaconda) environment is installed. In general, bioinformatics programs for manipulating and analyzing genomic data are only available or tested for Linux and Mac.** If you have a Windows based PC or laptop, _I strongy recommend to install a Linux distribution on a virtual machine_ (for example [wsl](https://learn.microsoft.com/en-us/windows/wsl/install)).
 
-### Data files availability:
-
-The genome sequences for this practice were retrieved either from [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) or [GISAID](https://gisaid.org/) databases and correspond to a subset of 4717 high-quality genomes of the BA.1 variant (Omicron) collected world wide between 05/01/2020 and 22/06/2022. You can find the metadata associated with these genomes in the file BA.1.metadata, and the instructions for retrieve these sequences in the file [GISAID-BA.1-sequences.md](https://github.com/salejandro/Comparative-Genomics-MBIOD/blob/main/GISAID-BA.1-sequences.md).
-
-The [FASTA](https://es.wikipedia.org/wiki/Formato_FASTA) files with the data decribed above will be in the folder "/data" of your home (/home).
-
 </br>
 
 <p align="center">
-<img src="http://www.ub.edu/molevol/CG-MGG/conda.jpeg" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/python.png" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/mafft.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/iqtree-logo.svg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/raxmlng.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/logo.svg" height="70">
+<img src="http://www.ub.edu/molevol/CG-MGG/docker.jpeg" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/python.png" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/mafft.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/iqtree-logo.svg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/raxmlng.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/logo.svg" height="70">
 </p>
-
+conda
 ---
 
 ## Part 1. Phylogenetic tree
