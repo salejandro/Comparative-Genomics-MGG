@@ -1,5 +1,5 @@
 <p align="left">
-<img src="http://www.ub.edu/molevol/CG-MGG/logo2.png" width="300" height="130"><img align="right" src="http://www.ub.edu/molevol/CG-MGG/master2.png" width="400" height="80">  
+<img src="http://www.ub.edu/certfem/CG-MGG/logo2.png" width="300" height="130"><img align="right" src="http://www.ub.edu/molevol/CG-MGG/master2.png" width="400" height="80">  
 </p>
 
 
@@ -97,7 +97,7 @@ Check that the image has been downloaded correctly:
    docker images
    ```
 
-Now, you can run a container to do the work of this practice:
+Now, you can run a new container to do the work of this practice (substitute <CONTAINER_NAME> with your invented name for the container) :
 
    ```bash
    docker run -it --name <CONTAINER_NAME> asancheg/cg-mbiod:r160323v2 /bin/bash
@@ -113,10 +113,6 @@ Now, you can run a container to do the work of this practice:
 > `docker exec -it <CONTAINER_NAME> \/bin/bash'`, to run the started container (see command above)    
 > `docker rmi <IMAGE_ID>`, to remove images (use _docker images_ to know the <IMAGE_ID>)   
 > `docker system prune -a`, to remove all images  
-
-</br>
-
-**IMPORTANT WARNING: Many of the tools that will be used in this practice are not available for Windows operating systems, even when conda (anaconda) environment is installed. In general, bioinformatics programs for manipulating and analyzing genomic data are only available or tested for Linux and Mac.** If you have a Windows based PC or laptop, _I strongy recommend to install a Linux distribution on a virtual machine_ (for example [wsl](https://learn.microsoft.com/en-us/windows/wsl/install)).
 
 </br>
 
