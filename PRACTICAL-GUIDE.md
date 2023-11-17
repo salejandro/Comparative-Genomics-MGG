@@ -1,6 +1,7 @@
 <p align="left">
-<img src="http://www.ub.edu/molevol/CG-Master/biodiversity.png" width="300" height="130"><img align="right" src="http://www.ub.edu/molevol/CG-Master/logo2.png" width="400" height="80">  
+<img src="http://www.ub.edu/molevol/CG-MGG/logo2.png" width="300" height="130"><img align="right" src="http://www.ub.edu/molevol/CG-MGG/master2.png" width="400" height="80">  
 </p>
+
 
 # Comparative Genomics
 ## Computer lab 3: Selection analyses in Omicron BA.1 lineage
