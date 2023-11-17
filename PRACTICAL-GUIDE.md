@@ -211,7 +211,7 @@ In the second part of the practice, we are particularly interested in identifyin
 ##### **Table 1**. Frequencies in non-Omicron SARS-CoV-2 genomes of some Spike amino acid mutations ([Martin et al. 2022](https://academic.oup.com/mbe/article/39/4/msac061/6553617)). Since the length of the Spike protein is highly conserved across the BA.1 sequences, the numbering of the positions in the table will match that of the alignment that your will use in this practice
 
 <p align="center">
-<img src="http://www.ub.edu/molevol/CG-MGG/table1.png" width="800">
+<img src="http://www.ub.edu/molevol/CG-Master/table1.png" width="800">
 </p>
 
 ### Workflow:
@@ -256,7 +256,8 @@ To visualize json results use [hyphy-vision tool](http://vision.hyphy.org/)
 
 Contact:    
 
-M.Riutort: mriutort(at)ub.edu
+M.Riutort: mriutort(at)ub.edu    
+
 A. Sánchez: elsanchez(at)ub.edu 
 
 
