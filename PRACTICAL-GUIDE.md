@@ -50,6 +50,8 @@ In the second part, you will first infer the effect on virus fitness of the miss
 
 If you are not familiarized with the terminal app in Linux based operating systems, please take a look at this [introductory manual](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 
+___
+
 ## Data
 
 The genome sequences for this practice were retrieved either from [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) or [GISAID](https://gisaid.org/) databases and correspond to:
@@ -65,7 +67,7 @@ All genome sequences will be available in the _/data_ folder of the docker image
 
 ___
 
-## Installing the software
+## Software
 
 Before starting the exercise, **you must confirm that you have _Docker Engine_ installed on your computer**. System requirements and regular installation instructions can be found [here](https://docs.docker.com/engine/install/). 
 
@@ -73,7 +75,7 @@ Before starting the exercise, **you must confirm that you have _Docker Engine_ i
 
 You will be working with a pre-built _docker_ image that contains all the software and tools you need to complete the exercises. The reason for using _docker_ is to work in a homogeneous and stable computing environment with a specific `Python` version (3.9), which is a requirement for some of the tools you will use in the exercises, and to avoid the complex (and often problematic) compilation and installation of main programs (iqtree, raxml-ng or hyphy) on different operating systems with different configurations.
 
-**IMPORTANT WARNING: In general, bioinformatics programs for manipulating and analysing genomic data are only available for Linux (and to a lesser extent for MacOS). It is strongly recommended to switch to a Unix-based operating system to work with omics data.
+> **IMPORTANT WARNING: In general, bioinformatics programs for manipulating and analysing genomic data are only available for Linux (and to a lesser extent for MacOS). It is strongly recommended to switch to a Unix-based operating system to work with omics data**.
 
 First, you can create the docker group and add your user:
    
