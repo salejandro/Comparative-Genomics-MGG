@@ -23,7 +23,7 @@ The biological model used in this practices are **sarbecoviruses**, and more spe
 </br>
 </br>
 
-<p align="center">
+<p align="left">
 <img src="http://www.ub.edu/molevol/CG-Master/sars2.png" width="900" heigh="900">
 </p>
 
