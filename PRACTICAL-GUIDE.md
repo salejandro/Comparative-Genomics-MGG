@@ -24,7 +24,7 @@ The biological model used in this practices are **sarbecoviruses**, and more spe
 </br>
 
 <p align="center">
-<img src="http://www.ub.edu/molevol/CG-MGG/sars2.png" width="900" heigh="900">
+<img src="http://www.ub.edu/molevol/CG-Master/sars2.png" width="900" heigh="900">
 </p>
 
 > **Fig. 1** Schematic diagrams of the SARS-CoV-2 virus particle (a) and genome (b). The genome encodes sixteen nonstructural proteins (nsp1–11, 12–16) and six accessory proteins. Plpro: papain like protease, 3CLPro: 3C-like proteinase, *__RdRp: RNA-dependent RNA polymerase__*, Hel:
@@ -40,7 +40,7 @@ In the second part, you will first infer the effect on virus fitness of the miss
 </br>
 
 <p align="center">
-<img src="http://www.ub.edu/molevol/CG-MGG/omicronfreq.png" width="900" heigh="900">
+<img src="http://www.ub.edu/molevol/CG-Master/omicronfreq.png" width="900" heigh="900">
 </p>
 
 > **Fig. 2** Frequency of the different SARS-CoV2 variants (colored by clade) at different time points as given in the Latest global SARS-CoV-2 analysis with GISAID data ([Nextstrain SARS-CoV-2 resources](https://nextstrain.org/ncov/gisaid/global/all-time); last accessed 16/11/2022). The sublineage BA.1 of Omicron correspond to the clade 21K.
@@ -120,7 +120,7 @@ Now, you can run a new container to do the work of this practice (substitute <CO
 </br>
 
 <p align="center">
-<img src="http://www.ub.edu/molevol/CG-MGG/docker.jpeg" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/python.png" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/mafft.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/iqtree-logo.svg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/raxmlng.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-MGG/logo.svg" height="70">
+<img src="http://www.ub.edu/molevol/CG-Master/docker.jpeg" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/python.png" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/mafft.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/iqtree-logo.svg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/raxmlng.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/logo.svg" height="70">
 </p>
 conda
 ---
