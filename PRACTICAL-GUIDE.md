@@ -39,7 +39,7 @@ In the second part, you will first infer the effect on virus fitness of the miss
 </br>
 </br>
 
-<p align="center">
+<p align="left">
 <img src="http://www.ub.edu/molevol/CG-Master/omicronfreq.png" width="900" heigh="900">
 </p>
 
@@ -124,7 +124,7 @@ Phylogenomics aims at establishing the evolutionary relationships between organi
 </br>
 </br>
 
-<p align="center">
+<p align="left">
 <img src="http://www.ub.edu/molevol/CG-Master/rec.png" width="900">
 </p>
 
@@ -221,7 +221,7 @@ In the second part of the practice, we are particularly interested in identifyin
 
 ##### **Table 1**. Frequencies in non-Omicron SARS-CoV-2 genomes of some Spike amino acid mutations ([Martin et al. 2022](https://academic.oup.com/mbe/article/39/4/msac061/6553617)). Since the length of the Spike protein is highly conserved across the BA.1 sequences, the numbering of the positions in the table will match that of the alignment that your will use in this practice
 
-<p align="center">
+<p align="left">
 <img src="http://www.ub.edu/molevol/CG-Master/table1.png" width="800">
 </p>
 
