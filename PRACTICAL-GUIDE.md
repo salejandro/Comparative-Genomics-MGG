@@ -1,5 +1,5 @@
 <p align="right">
-<img src="http://www.ub.edu/molevol/CG-Master/UB-biol.png" width="300" height="130">  
+<img src="http://www.ub.edu/molevol/CG-Master/Biologia_cmyk.pdf" width="300" height="130">  
 </p>
 <p align="center">
 <img src="http://www.ub.edu/molevol/CG-Master/master2.png">
