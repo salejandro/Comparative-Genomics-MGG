@@ -334,6 +334,8 @@ Once you have the tree, you are ready to run a selection analysis with different
       
       ```
 
+To recuperate the generated files from the container, use the command `docker cp` in your terminal (after stoping de container) 
+
 To visualize json results use [hyphy-vision tool](http://vision.hyphy.org/)
 
 ***
