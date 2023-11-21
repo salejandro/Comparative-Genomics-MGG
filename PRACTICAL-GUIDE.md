@@ -341,6 +341,7 @@ Finally, to recuperate the files with results from the container, use the comman
 ```
    docker cp CONTAINER_id:/home /PATH_TO_/YOUR_LOCAL_FOLDER/
 ```
+> Remember that you can use the command `docker ps -a` to know the CONTAINER_ID
 
 To visualize json results use [hyphy-vision tool](http://vision.hyphy.org/)
 
