@@ -333,8 +333,13 @@ Once you have the tree, you are ready to run a selection analysis with different
       $HYPHYMPI bgm --alignment ${FILE}.S.uniq.fas --tree ${FILE}.S.uniq.tree --branches Internal --min-subs 2 --steps 1000000 --burn-in 100000
       
       ```
+     
+***
 
-To recuperate the generated files from the container, use the command `docker cp` in your terminal (after stoping de container) 
+Finally, to recuperate the files with results from the container, use the command `docker cp` in your CLI: 
+
+```
+   docker cp CONTAINER_id:/home /PATH_TO_/YOUR_LOCAL_FOLDER/
 
 To visualize json results use [hyphy-vision tool](http://vision.hyphy.org/)
 
