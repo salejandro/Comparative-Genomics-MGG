@@ -340,6 +340,7 @@ Finally, to recuperate the files with results from the container, use the comman
 
 ```
    docker cp CONTAINER_id:/home /PATH_TO_/YOUR_LOCAL_FOLDER/
+```
 
 To visualize json results use [hyphy-vision tool](http://vision.hyphy.org/)
 
