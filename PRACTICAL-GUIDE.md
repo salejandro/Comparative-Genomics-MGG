@@ -339,7 +339,7 @@ Once you have the tree, you are ready to run a selection analysis with different
 Finally, to recuperate the files with results from the container, use the command `docker cp` in your CLI: 
 
 ```
-   docker cp CONTAINER_id:/home /PATH_TO_/YOUR_LOCAL_FOLDER/
+   docker cp CONTAINER_ID:/home /PATH_TO_/YOUR_LOCAL_FOLDER/
 ```
 > Remember that you can use the command `docker ps -a` to know the CONTAINER_ID
 
