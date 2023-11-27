@@ -105,7 +105,7 @@ Now, you can run a new container to do the work of this practice (substitute <CO
 > `docker ps -a`, to list containers (to know, for example, containers names)   
 > `docker rm <CONTAINER_NAME>`, to remove a container    
 > `docker start <CONTAINER_NAME>`, to start a stopped container (this command only starts the container, see the next command)    
-> `docker exec -it <CONTAINER_NAME> \/bin/bash`, to run the started container (see command above)    
+> `docker exec -it <CONTAINER_NAME> /bin/bash`, to run the started container (see command above)    
 > `docker rmi <IMAGE_ID>`, to remove images (use _docker images_ to know the <IMAGE_ID>)   
 > `docker system prune -a`, to remove all images  
 
