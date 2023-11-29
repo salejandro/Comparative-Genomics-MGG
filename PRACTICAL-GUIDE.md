@@ -100,7 +100,8 @@ Now, you can run a new container to do the work of this practice (substitute CON
    ```
    
 > Some useful commands to work with containers and images:
-> `exit` to exit a container   
+> `exit` to exit a container
+> One you are outside the container: 
 > `docker stop CONTAINER_NAME`, to stop a container   
 > `docker ps -a`, to list containers (to know, for example, containers names)   
 > `docker rm CONTAINER_NAME`, to remove a container    
@@ -108,8 +109,7 @@ Now, you can run a new container to do the work of this practice (substitute CON
 > `docker exec -it CONTAINER_NAME /bin/bash`, to run the started container (see command above)    
 > `docker rmi IMAGE_ID`, to remove images (use _docker images_ to know the <IMAGE_ID>)   
 > `docker system prune -a`, to remove all images     
-> `docker cp CONTAINER_ID:/home /PATH_TO_/YOUR_LOCAL_FOLDER/` to recuperate the files with results from the container (i.e., to copy the files from the container to your local folder). Remember that you can use the command `docker ps -a` to know the CONTAINER_ID.
-
+> `docker cp CONTAINER_ID:/home /PATH_TO_/YOUR_LOCAL_FOLDER/` to recuperate the files with results from the container
 
 </br>
 
