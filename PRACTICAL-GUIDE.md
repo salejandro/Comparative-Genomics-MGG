@@ -92,22 +92,24 @@ Check that the image has been downloaded correctly:
    docker images
    ```
 
-Now, you can run a new container to do the work of this practice (substitute <CONTAINER_NAME> with your invented name for the container) :
+Now, you can run a new container to do the work of this practice (substitute CONTAINER_NAME with your invented name for the container) :
 
    ```bash
-   docker run -it --name <CONTAINER_NAME> asancheg/cg-mbiod:r160323v2 /bin/bash
+   docker run -it --name CONTAINER_NAME asancheg/cg-mbiod:r160323v2 /bin/bash
    cd home
    ```
    
 > Some useful commands to work with containers and images:
 > `exit` to exit a container   
-> `docker stop <CONTAINER_NAME>`, to stop a container   
+> `docker stop CONTAINER_NAME`, to stop a container   
 > `docker ps -a`, to list containers (to know, for example, containers names)   
-> `docker rm <CONTAINER_NAME>`, to remove a container    
-> `docker start <CONTAINER_NAME>`, to start a stopped container (this command only starts the container, see the next command)    
-> `docker exec -it <CONTAINER_NAME> /bin/bash`, to run the started container (see command above)    
-> `docker rmi <IMAGE_ID>`, to remove images (use _docker images_ to know the <IMAGE_ID>)   
-> `docker system prune -a`, to remove all images  
+> `docker rm CONTAINER_NAME`, to remove a container    
+> `docker start CONTAINER_NAME`, to start a stopped container (this command only starts the container, see the next command)    
+> `docker exec -it CONTAINER_NAME /bin/bash`, to run the started container (see command above)    
+> `docker rmi IMAGE_ID`, to remove images (use _docker images_ to know the <IMAGE_ID>)   
+> `docker system prune -a`, to remove all images
+> `docker cp CONTAINER_ID:/home /PATH_TO_/YOUR_LOCAL_FOLDER/` to recuperate the files with results from the container (i.e., to copy the files from the container to your local folder). Remember that you can use the command `docker ps -a` to know the CONTAINER_ID.
+
 
 </br>
 
@@ -335,13 +337,6 @@ Once you have the tree, you are ready to run a selection analysis with different
       ```
      
 ***
-
-Finally, to recuperate the files with results from the container, use the command `docker cp` in your CLI: 
-
-```
-   docker cp CONTAINER_ID:/home /PATH_TO_/YOUR_LOCAL_FOLDER/
-```
-> Remember that you can use the command `docker ps -a` to know the CONTAINER_ID
 
 To visualize json results use [hyphy-vision tool](http://vision.hyphy.org/)
 
