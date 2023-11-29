@@ -338,7 +338,8 @@ Once you have the tree, you are ready to run a selection analysis with different
      
 ***
 
-To visualize json results use [hyphy-vision tool](http://vision.hyphy.org/)
+To visualize json results use [hyphy-vision tool](http://vision.hyphy.org/)    
+Remember that you can recuperate the files with results from the container using the command `docker cp` (see the **Software** section above)
 
 ***
 
