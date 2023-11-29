@@ -107,7 +107,7 @@ Now, you can run a new container to do the work of this practice (substitute CON
 > `docker start CONTAINER_NAME`, to start a stopped container (this command only starts the container, see the next command)    
 > `docker exec -it CONTAINER_NAME /bin/bash`, to run the started container (see command above)    
 > `docker rmi IMAGE_ID`, to remove images (use _docker images_ to know the <IMAGE_ID>)   
-> `docker system prune -a`, to remove all images
+> `docker system prune -a`, to remove all images     
 > `docker cp CONTAINER_ID:/home /PATH_TO_/YOUR_LOCAL_FOLDER/` to recuperate the files with results from the container (i.e., to copy the files from the container to your local folder). Remember that you can use the command `docker ps -a` to know the CONTAINER_ID.
 
 
