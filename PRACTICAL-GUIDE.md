@@ -101,7 +101,7 @@ Now, you can run a new container to do the work of this practice (substitute CON
    
 > Some useful commands to work with containers and images:
 > `exit` to exit a container
-> One you are outside the container: 
+> One you are outside the container:       
 > `docker stop CONTAINER_NAME`, to stop a container   
 > `docker ps -a`, to list containers (to know, for example, containers names)   
 > `docker rm CONTAINER_NAME`, to remove a container    
