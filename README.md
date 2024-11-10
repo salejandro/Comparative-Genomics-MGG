@@ -166,7 +166,7 @@ To illustrate the different evolutionary history of some viral genome regions, y
       iqtree -s ${FILE}.f11.msa -m JC+F -bb 1000
       
       ``` 
-      > To visualize the trees you can use the application [figtree](https://github.com/rambaut/figtree/releases).
+      > You can use a local application like [figtree](https://github.com/rambaut/figtree/releases) or an online tool like [iTOL](https://itol.embl.de/upload.cgi) to visualize the trees.
 
  </br>
 
@@ -175,7 +175,7 @@ To illustrate the different evolutionary history of some viral genome regions, y
    + To trim down Sarbecovirues sequences to the RBD neighborhood using a `Python` script:
       
       ```bash
-      python3.9 scripts/filter-sites.py data/${FILE} 22000,24000 > ${FILE}.RBD.raw
+      python3 scripts/filter-sites.py data/${FILE} 22000,24000 > ${FILE}.RBD.raw
       
       ```
    + To map trimmed Sarbecovirus sequences to the RBD nucleotide sequences of the SARS-CoV2 reference ([NC_045512](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)), using a codon alignment algorithm:
@@ -210,8 +210,9 @@ To illustrate the different evolutionary history of some viral genome regions, y
      # 2:
      cp sarbecoviruses.fasta.RBD.prot.align sarbecoviruses.fasta.RBD.prot.align_dup
      iqtree -s sarbecoviruses.fasta.RBD.prot.align_dup -st AA -m TEST -bb 1000
-     
      ```
+
+> We strongly recomend to create a new folder and move all the files generated in this first part to this folder (e.g. `mkdir part1_results` and then `mv sarbecoviruses.* part1_results`
 ---
 
 ## Part 2. Analysis of selection in the BA.1 sublineage
