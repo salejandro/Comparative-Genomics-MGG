@@ -132,7 +132,7 @@ Phylogenomics aims at establishing the evolutionary relationships between organi
 </br>
 
 <p align="left">
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/recomb.png" width="900">
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/recomb.png" width="1200">
 </p>
 
 > **Fig. 3.** Recombination events estimated in the evolutionary history of sarbecoviruses. Modified from [Temmam et al. (2022)](https://www.nature.com/articles/s41586-022-04532-4).
