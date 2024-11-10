@@ -94,7 +94,6 @@ Now, you can run a new container to work on this practice (substitute CONTAINER_
 
    ```bash
    docker run -it --name CONTAINER_NAME asancheg/cgub:latest /bin/bash
-   cd home
    ```
    
 > Some useful commands to work with containers and images:      
@@ -166,7 +165,7 @@ To illustrate the different evolutionary history of some viral genome regions, y
       iqtree -s ${FILE}.f11.msa -m JC+F -bb 1000
       
       ``` 
-      > You can use a local application like [figtree](https://github.com/rambaut/figtree/releases) or an online tool like [iTOL](https://itol.embl.de/upload.cgi) to visualize the trees.
+      > You can use a local application like [figtree](https://github.com/rambaut/figtree/releases) or an online tool like [iTOL](https://itol.embl.de/upload.cgi) to visualize the trees. REMEMBER that you can recuperate the files with results from the container to your computer with the command `docker cp CONTAINER_ID:/home /PATH_TO_/YOUR_LOCAL_FOLDER/`.
 
  </br>
 
