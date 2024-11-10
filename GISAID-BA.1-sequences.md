@@ -1,3 +1,5 @@
+[Back to the GUIDE](https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/PRACTICAL-GUIDE.md)
+
 # Retrieving Omicron sequences from GISAID
 
 1. After login in GISAID, go to the **Downloads** section:
@@ -27,3 +29,4 @@
 
 **The genome sequences and the associated metadata will download in a compressed file**
 
+[Back to the GUIDE](https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/PRACTICAL-GUIDE.md)
