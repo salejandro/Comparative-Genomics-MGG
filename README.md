@@ -233,7 +233,7 @@ In the second part of the practice, we are particularly interested in identifyin
 
       ```bash
       FILE="omicron-BA1.fasta" # rename accordingly
-      python3.9 scripts/filter-sites.py data/$FILE  20000,26000 > ${FILE}.S.raw
+      python3 scripts/filter-sites.py data/$FILE  20000,26000 > ${FILE}.S.raw
       
       ``` 
    > You trim sequences to this wide range be sure to include the whole S-gene of all the sequences
@@ -255,22 +255,22 @@ In the second part of the practice, we are particularly interested in identifyin
 
       + To identify and remove all identical sequences up to ambiguous nucleotides:
          ```bash
-         python3.9 scripts/exact-copies.py  ${FILE}.S.msa > ${FILE}.u.clusters.json
-         python3.9 scripts/cluster-processor.py ${FILE}.u.clusters.json > ${FILE}.S.u.fas
+         python3 scripts/exact-copies.py  ${FILE}.S.msa > ${FILE}.u.clusters.json
+         python3 scripts/cluster-processor.py ${FILE}.u.clusters.json > ${FILE}.S.u.fas
          
          ```
 
       + To identify and remove all remaining sequences that are within t= 0.0 ([Tamura-Nei 93](https://pubmed.ncbi.nlm.nih.gov/8336541/) distance) genetic distance:
          ```bash
          tn93-cluster -t 0.0 ${FILE}.S.u.fas > ${FILE}.t0.clusters.json
-         python3.9 scripts/cluster-processor.py ${FILE}.t0.clusters.json > ${FILE}.S.all.fas
+         python3 scripts/cluster-processor.py ${FILE}.t0.clusters.json > ${FILE}.S.all.fas
          
          ```
 
       + To reduce the set of sequences to clusters that are all within t=0.00075 distance of one another:
          ```bash
          tn93-cluster -t 0.00075 ${FILE}.S.all.fas > ${FILE}.t1.clusters.json
-         python3.9 scripts/cluster-processor.py ${FILE}.t1.clusters.json > ${FILE}.S.uniq.fas
+         python3 scripts/cluster-processor.py ${FILE}.t1.clusters.json > ${FILE}.S.uniq.fas
          
          ```
 
@@ -278,13 +278,13 @@ In the second part of the practice, we are particularly interested in identifyin
 
          ```bash
          tn93-cluster -t 0.002 ${FILE}.S.uniq.fas > ${FILE}.t2.clusters.json
-         python3.9 scripts/cluster-processor.py ${FILE}.t1.clusters.json ${FILE}.t2.clusters.json > ${FILE}.S.uniq-all.fas 2> ${FILE}.S.blacklist.txt
+         python3 scripts/cluster-processor.py ${FILE}.t1.clusters.json ${FILE}.t2.clusters.json > ${FILE}.S.uniq-all.fas 2> ${FILE}.S.blacklist.txt
          
          ```
    
       + Finally, to build a majority consensus for each remaining cluster and remove clusters that comprise fewer than 3 sequences:
          ```bash
-         python3.9 scripts/cluster-processor-consensus.py 3 ${FILE}.S.msa ${FILE}.S.uniq-all.fas ${FILE}.t1.clusters.json ${FILE}.t0.clusters.json ${FILE}.u.clusters.json > ${FILE}.S.uniq.fas
+         python3 scripts/cluster-processor-consensus.py 3 ${FILE}.S.msa ${FILE}.S.uniq-all.fas ${FILE}.t1.clusters.json ${FILE}.t0.clusters.json ${FILE}.u.clusters.json > ${FILE}.S.uniq.fas
          
          ```
    
