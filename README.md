@@ -115,7 +115,7 @@ Now, you can run a new container to work on this practice (substitute CONTAINER_
 </br>
 
 <p align="center">
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/python.png" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images//mafft.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/iqtree-logo.svg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/raxmlng.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/logo.svg" height="70">
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/python.png" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images//mafft.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/iqtree.svg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/raxmlng.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/hyphy.jpg" height="70">
 </p>
 
 ---
