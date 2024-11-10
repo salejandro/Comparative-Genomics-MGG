@@ -70,9 +70,11 @@ ___
 
 ## Software
 
-Before starting the exercise, **you must confirm that you have _Docker Engine_ installed on your computer**. System requirements and regular installation instructions can be found [here](https://docs.docker.com/engine/install/). 
+<p align="center">
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/docker.png" height="50">
+</p>
 
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/docker.png" height="80">
+starting the exercise, **you must confirm that you have _Docker Engine_ installed on your computer**. System requirements and regular installation instructions can be found [here](https://docs.docker.com/engine/install/). 
 
 > Do not forget to enable the WSL 2 feature on Windows-based laptops.
 
