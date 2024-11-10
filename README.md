@@ -74,6 +74,8 @@ ___
 <img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/docker.png" height="50">
 </p>
 
+</br>
+
 Before starting the exercise, **you must confirm that you have _Docker Engine_ installed on your computer**. System requirements and regular installation instructions can be found [here](https://docs.docker.com/engine/install/). 
 
 > Do not forget to enable the WSL 2 feature on Windows-based laptops.
@@ -115,7 +117,7 @@ Now, you can run a new container to work on this practice (substitute CONTAINER_
 </br>
 
 <p align="center">
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/python.png" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images//mafft.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/iqtree.png" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/raxmlng.png" height="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/hyphy.jpg" height="70">
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/python.png" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images//mafft.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/iqtree.png" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/raxmlng.png" height="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/hyphy.jpg" height="70">
 </p>
 
 ---
