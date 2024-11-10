@@ -1,5 +1,5 @@
 <p align="right">
-<img src="http://www.ub.edu/molevol/CG-Master/Biologia_1tinta-01.png" width="300" height="130">  
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/Biologia_rgb-01.jpg" width="500" height="230">  
 </p>
 <p align="center">
 <img src="http://www.ub.edu/molevol/CG-Master/master2.png">
