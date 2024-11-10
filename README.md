@@ -72,6 +72,8 @@ ___
 
 Before starting the exercise, **you must confirm that you have _Docker Engine_ installed on your computer**. System requirements and regular installation instructions can be found [here](https://docs.docker.com/engine/install/). 
 
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/docker.png" height="80">
+
 > Do not forget to enable the WSL 2 feature on Windows-based laptops.
 
 You will be working with a pre-built _docker_ image that contains all the software and tools you need to complete the exercises. The reason for using _docker_ is to work in a homogeneous and stable computing environment with a specific `Python` version (3.9), which is a requirement for some of the tools you will use in the exercises, and to avoid the complex (and often problematic) compilation and installation of main programs (iqtree, raxml-ng or hyphy) on different operating systems with different configurations.
@@ -111,7 +113,7 @@ Now, you can run a new container to work on this practice (substitute CONTAINER_
 </br>
 
 <p align="center">
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/docker.png" height="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/python.png" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/mafft.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/iqtree-logo.svg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/raxmlng.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/logo.svg" height="70">
+<img src="http://www.ub.edu/molevol/CG-Master/python.png" height="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/mafft.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/iqtree-logo.svg" height="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/raxmlng.png" height="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.ub.edu/molevol/CG-Master/logo.svg" height="70">
 </p>
 
 ---
