@@ -1,8 +1,6 @@
-<p align="right">
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/Biologia_rgb-01.jpg" width="500" height="230">  
-</p>
+
 <p align="center">
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master.png">
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master2.png">
 </p>
 
 
