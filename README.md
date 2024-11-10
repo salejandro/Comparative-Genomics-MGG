@@ -81,7 +81,7 @@ You will be working with a pre-built _docker_ image that contains all the softwa
 First, download the image form the Docker hub:
 
    ```bash
-   docker pull asancheg/cg-mbiod:r160323v2
+   docker pull asancheg/cgub:latest
    ```
 
 Check that the image has been downloaded correctly:
@@ -90,10 +90,10 @@ Check that the image has been downloaded correctly:
    docker images
    ```
 
-Now, you can run a new container to do the work of this practice (substitute CONTAINER_NAME with your invented name for the container) :
+Now, you can run a new container to work on this practice (substitute CONTAINER_NAME with your invented name for the container):
 
    ```bash
-   docker run -it --name CONTAINER_NAME asancheg/cg-mbiod:r160323v2 /bin/bash
+   docker run -it --name CONTAINER_NAME asancheg/cgub:latest /bin/bash
    cd home
    ```
    
