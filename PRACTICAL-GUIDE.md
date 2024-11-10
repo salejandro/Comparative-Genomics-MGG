@@ -6,7 +6,7 @@
 </p>
 
 
-# Comparative Genomics 2023
+# Comparative Genomics 2024-2025
 
 ## Computer lab 
 
