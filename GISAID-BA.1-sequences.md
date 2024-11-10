@@ -3,7 +3,7 @@
 1. After login in GISAID, go to the **Downloads** section:
 </br>
 <p align="center">
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/downloads.png" width="800">
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/download.png" width="800">
 </p>
 
 ---
