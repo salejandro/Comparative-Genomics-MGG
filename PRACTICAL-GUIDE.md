@@ -4,7 +4,9 @@
 </p>
 
 
-# Comparative Genomics (2024-2025). Computer Lab 
+# COMPARATIVE GENOMICS (2024-2025)
+
+# Computer Lab
 
 Instructors: **Marta Riutort & Alejandro Sánchez**  
 
