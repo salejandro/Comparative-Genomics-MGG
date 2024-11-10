@@ -39,7 +39,7 @@ In the second part, you will first infer the effect on virus fitness of the miss
 <img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/clades.png" width="1100" heigh="1100">
 </p>
 
-> **Fig. 2** Frequency of the different SARS-CoV2 variants (colored by clade) at different time points as given in the Latest global SARS-CoV-2 analysis with GISAID data ([Nextstrain SARS-CoV-2 resources](https://nextstrain.org/ncov/gisaid/global/all-time); last accessed 16/11/2022). The sublineage BA.1 of Omicron (the first -standard- sublineage of Omicron variant discovered) correspond to the clade 21K.
+> **Fig. 2** Frequency of the different SARS-CoV2 variants (colored by clade) at different time points as given in the Latest global SARS-CoV-2 analysis with GISAID data ([Nextstrain SARS-CoV-2 resources](https://nextstrain.org/ncov/gisaid/global/all-time); last accessed 10/11/2024). The sublineage BA.1 of Omicron (the first -standard- sublineage of Omicron variant discovered) correspond to the clade 21K.
 
 </br>
 
