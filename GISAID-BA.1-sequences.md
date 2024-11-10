@@ -1,4 +1,4 @@
-[Back to the GUIDE](https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/PRACTICAL-GUIDE.md)
+[Back to the GUIDE](https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/README.md)
 
 # Retrieving Omicron sequences from GISAID
 
@@ -29,4 +29,4 @@
 
 **The genome sequences and the associated metadata will download in a compressed file**
 
-[Back to the GUIDE](https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/PRACTICAL-GUIDE.md)
+[Back to the GUIDE](https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/README.md)
