@@ -315,20 +315,20 @@ Once you have the tree, you are ready to run a selection analysis with different
    + The first method is **BUSTED** (**B**ranch-Site **U**nrestricted **S**tatistical **T**est for **E**pisodic **D**iversification). By applying this method, you are asking whether the S-gene has experienced **positive selection at at least one site on at least one branch** of the tree (=one BA.1 genome):
 
       ```bash
-      HYPHYMP busted CPU=$threads --alignment ${FILE}.S.uniq.fas --tree ${FILE}.S.uniq.tree --branches Internal --rates 3 --starting-points 5
+      hyphy busted CPU=$threads --alignment ${FILE}.S.uniq.fas --tree ${FILE}.S.uniq.tree --branches Internal --rates 3 --starting-points 5
       ```
    
    + When applying **FEL** (**F**ixed **E**ffects **L**ikelihood) to your data, you obtain the ML estimate of non-synoymous (dN) and synonymous (dS) substitution rates in each codon site (amino acid position) for the entire Spike CDS alignment acroos the phylogeny. Therefore, you are assuming **constant selection pressures along the entire history of BA.1 sequences**:
    
       ```bash
-      HYPHYMP fel CPU=$threads --alignment ${FILE}.S.uniq.fas  --tree ${FILE}.S.uniq.tree --branches Internal  --ci Yes
+     hyphy fel CPU=$threads --alignment ${FILE}.S.uniq.fas  --tree ${FILE}.S.uniq.tree --branches Internal  --ci Yes
       
       ```
    
    + Whith **MEME** (**M**ixed **E**ffects **M**odel of **E**volution) you will identify episodes of **positive selection** in the S-gene affecting a **small subset of branches at individual sites**. In other words, episodic positive or diversifying selection:
    
       ```bash
-      HYPHYMP meme CPU=$threads --alignment ${FILE}.S.uniq.fas  --tree ${FILE}.S.uniq.tree --branches Internal
+      hyphy meme CPU=$threads --alignment ${FILE}.S.uniq.fas  --tree ${FILE}.S.uniq.tree --branches Internal
       
       ```
         > Notice that in the two last models (FEL and MEME) you use the MPI (Message Passing Interface) version of the program hyphy. This version allows multiprocessing (parallel programing), which is very helpful when running computational intensive models  
@@ -336,7 +336,7 @@ Once you have the tree, you are ready to run a selection analysis with different
    + Finally, the **BGM** (**B**ayesian **G**raphical **M**odel) method is a tool for detecting correlated amino acid substitutions in the Spike protein of Omicron BA.1. This correlation should be suggestive of **coevolutionary interactions between amino acid positions** in this protein:
      
       ```bash
-      HYPHYMP bgm CPU=$threads --alignment ${FILE}.S.uniq.fas --tree ${FILE}.S.uniq.tree --branches Internal --min-subs 2 --steps 1000000 --burn-in 100000
+      hyphy bgm CPU=$threads --alignment ${FILE}.S.uniq.fas --tree ${FILE}.S.uniq.tree --branches Internal --min-subs 2 --steps 1000000 --burn-in 100000
       
       ```
      
