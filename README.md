@@ -87,7 +87,7 @@ You will be working with a pre-built _docker_ image that contains all the softwa
 First, download the image form the Docker hub:
 
    ```bash
-   docker pull asancheg/cgub:latest
+   docker pull asancheg/cgub:2025
    ```
 
 Check that the image has been downloaded correctly:
@@ -99,7 +99,7 @@ Check that the image has been downloaded correctly:
 Now, you can run a new container to work on this practice (substitute CONTAINER_NAME with your invented name for the container):
 
    ```bash
-   docker run -it --name CONTAINER_NAME asancheg/cgub:latest /bin/bash
+   docker run -it --name CONTAINER_NAME asancheg/cgub:2025 /bin/bash
    ```
    
 > Some useful commands to work with containers and images:      
