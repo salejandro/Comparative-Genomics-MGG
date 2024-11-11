@@ -112,7 +112,7 @@ Now, you can run a new container to work on this practice (substitute CONTAINER_
 > `docker exec -it CONTAINER_NAME /bin/bash`, to run the started container (see command above)    
 > `docker rmi IMAGE_ID`, to remove images (use _docker images_ to know the <IMAGE_ID>)   
 > `docker system prune -a`, to remove all images     
-> **`docker cp CONTAINER_ID:/cguser /PATH_TO_/YOUR_LOCAL_FOLDER/` to recuperate the scripts and the files with results from the container (the /PATH_TO_/YOUR_LOCAL_FOLDER/ must have permissions)** 
+> **`docker cp CONTAINER_ID:/cguser /PATH_TO_/YOUR_LOCAL_FOLDER/` to recuperate the scripts and the files with results from the container (the /PATH_TO_/YOUR_LOCAL_FOLDER/. WARNING: the local folder must have permissions)** 
 
 </br>
 
