@@ -76,11 +76,16 @@ ___
 </p>
 
 </br>
-Before starting the exercise, **make sure you have the course Docker image available on your local machine**. Instructions for downloading and setting it up can be found [here](https:/www.ub.edu/molevol/Docencia/CG-MGG). 
+
+Before starting the exercise, **make sure you have the course Docker image available on your local machine**. Instructions for downloading and setting it up can be found [here](https:/www.ub.edu/molevol/Docencia/CG-MGG).  
+
 
 > Do not forget to enable the WSL 2 feature on Windows-based laptops.
 
 > **IMPORTANT WARNING: In general, bioinformatics programs for manipulating and analysing genomic data are only available for Linux (and to a lesser extent for MacOS). It is strongly recommended to switch to a Unix-based operating system to work with omics data**.
+
+
+</br>
    
 > Some useful commands to work with containers and images:      
 > `exit` to exit a container      
