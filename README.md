@@ -287,10 +287,9 @@ In the second part of the practice, we are particularly interested in identifyin
 4.  And, lastly, you will use the program `raxml-ng` to obtain the tree: 
 
       ```bash
-      threads=4
+      threads=auto
       raxml-ng --redo --threads $threads --msa ${FILE}.S.uniq.fas --tree pars{5} --model GTR+G+I
       cp ${FILE}.S.uniq.fas.raxml.bestTree ${FILE}.S.uniq.tree
-      
       ```
       > Remember to update the variable 'threads'  according to your resources
 
@@ -302,7 +301,8 @@ Once you have the tree, you are ready to run a selection analysis with different
 
       ```bash
       hyphy busted CPU=0 --alignment ${FILE}.S.uniq.fas --tree ${FILE}.S.uniq.tree --branches Internal --rates 3 --starting-points 5
-      ```
+            
+      > Setting CPU=0 in HyPhy tells the program to use all available processor cores, speeding up analyses by running calculations in parallel.
    
    + When applying **FEL** (**F**ixed **E**ffects **L**ikelihood) to your data, you obtain the ML estimate of non-synoymous (dN) and synonymous (dS) substitution rates in each codon site (amino acid position) for the entire Spike CDS alignment acroos the phylogeny. Therefore, you are assuming **constant selection pressures along the entire history of BA.1 sequences**:
    
