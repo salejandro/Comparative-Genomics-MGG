@@ -76,32 +76,11 @@ ___
 </p>
 
 </br>
-
-Before starting the exercise, **you must confirm that you have _Docker Engine_ installed on your computer**. System requirements and regular installation instructions can be found [here](https://docs.docker.com/engine/install/). 
+Before starting the exercise, **make sure you have the course Docker image available on your local machine**. Instructions for downloading and setting it up can be found [here](https:/www.ub.edu/molevol/Docencia/CG-MGG). 
 
 > Do not forget to enable the WSL 2 feature on Windows-based laptops.
 
-You will be working with a pre-built _docker_ image that contains all the software and tools you need to complete the exercises. The reason for using _docker_ is to work in a homogeneous and stable computing environment with a specific `Python` version (3.9), which is a requirement for some of the tools you will use in the exercises, and to avoid the complex (and often problematic) compilation and installation of main programs (iqtree, raxml-ng or hyphy) on different operating systems with different configurations.
-
 > **IMPORTANT WARNING: In general, bioinformatics programs for manipulating and analysing genomic data are only available for Linux (and to a lesser extent for MacOS). It is strongly recommended to switch to a Unix-based operating system to work with omics data**.
-
-First, download the image form the Docker hub:
-
-   ```bash
-   docker pull asancheg/cgub:2025
-   ```
-
-Check that the image has been downloaded correctly:
-
-   ```bash
-   docker images
-   ```
-
-Now, you can run a new container to work on this practice (substitute CONTAINER_NAME with your invented name for the container):
-
-   ```bash
-   docker run -it --name CONTAINER_NAME asancheg/cgub:2025 /bin/bash
-   ```
    
 > Some useful commands to work with containers and images:      
 > `exit` to exit a container      
