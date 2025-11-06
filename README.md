@@ -77,7 +77,7 @@ ___
 
 </br>
 
-Before starting the exercise, **make sure you have the course Docker IMAGE available on your local machine**. Instructions for downloading and setting it up can be found [here](https:/www.ub.edu/molevol/Docencia/CG-MGG). Do not forget to enable the WSL 2 feature on Windows-based laptops.   
+Before starting the exercise, **make sure you have the course Docker image available on your local machine**. Instructions for downloading and setting it up can be found [here](https:/www.ub.edu/molevol/Docencia/CG-MGG). Do not forget to enable the WSL 2 feature on Windows-based laptops.   
 
 </br>
 
@@ -86,7 +86,7 @@ Before starting the exercise, **make sure you have the course Docker IMAGE avail
 
 </br>
    
-Here you have some useful commands to work with containers and images:   
+Here are some useful commands for working with containers and images:
 
 > `exit` to exit a container      
 > Once you are outside the container:       
