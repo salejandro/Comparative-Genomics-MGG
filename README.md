@@ -1,10 +1,11 @@
 
 <p align="center">
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master2.png">
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master2.png
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master3.png">
 </p>
 
 
-# COMPARATIVE GENOMICS (2024-2025)
+# COMPARATIVE GENOMICS (2025-2026)
 
 # Computer Lab
 
