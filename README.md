@@ -1,7 +1,7 @@
 
 <p align="center">
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master2.png
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master3.png">
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master2.png">
+<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master2026.png">
 </p>
 
 
