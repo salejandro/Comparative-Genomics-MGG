@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master2.png">
+<!--<img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master2.png">-->
 <img src="https://github.com/salejandro/Comparative-Genomics-MGG/blob/main/images/master26.png">
 </p>
 
