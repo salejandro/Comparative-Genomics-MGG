@@ -90,7 +90,7 @@ Instructions for downloading and setting it up can be found [here](https://www.u
    
 Here are some useful commands for working with containers and images:
 
-> `docker run -it --name CONTAINER_NAME -v SHARED_FOLDER:/CONTAINER_FOLDER repository/image:tag`, to launch a container (consult [here](https://www.ub.edu/molevol/Docencia/CG-MGG/docker-instructions-MGG.html) for more details).       
+> `docker run -it --name CONTAINER_NAME -v SHARED_FOLDER:/CONTAINER_FOLDER repository/image:tag`, to launch a container (for more details, see the instructions provided [here](https://www.ub.edu/molevol/Docencia/CG-MGG/docker-instructions-MGG.html)).     
 > `exit`, to exit a container.
 > </br>      
 > Once you are outside the container:       
@@ -330,7 +330,7 @@ Once you have the tree, you are ready to run a selection analysis with different
 ***
 
 To visualize json results use [hyphy-vision tool](http://vision.hyphy.org/)    
-Remember that you can recuperate the files with results from the container using the command `docker cp` (see the **Software** section above)
+Remember that you can retrieve the result files from the container by moving or copying all output files into the shared folder (for more details about how to share this folder, see the instructions provided [here](https://www.ub.edu/molevol/Docencia/CG-MGG/docker-instructions-MGG.html). 
 
 ***
 
