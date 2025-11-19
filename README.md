@@ -90,7 +90,7 @@ Instructions for downloading and setting it up can be found [here](https://www.u
    
 Here are some useful commands for working with containers and images:
 
-> `docker run -it --name CONTAINER_NAME -v SHARED_FOLDER./CONTAINER_FOLDER repository/image:tag`, to launch a container 
+> `docker run -it --name CONTAINER_NAME -v SHARED_FOLDER./CONTAINER_FOLDER repository/image:tag`, to launch a container
 > `exit` to exit a container      
 > Once you are outside the container:       
 > `docker stop CONTAINER_NAME`, to stop a container   
