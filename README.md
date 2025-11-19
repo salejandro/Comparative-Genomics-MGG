@@ -91,16 +91,16 @@ Instructions for downloading and setting it up can be found [here](https://www.u
 Here are some useful commands for working with containers and images:
 
 > `docker run -it --name CONTAINER_NAME -v SHARED_FOLDER:/CONTAINER_FOLDER repository/image:tag`, to launch a container (consult [here](https://www.ub.edu/molevol/Docencia/CG-MGG/docker-instructions-MGG.html) for more details).       
-> `exit` to exit a container
+> `exit`, to exit a container.
 > </br>      
 > Once you are outside the container:       
-> `docker stop CONTAINER_NAME`, to stop a container   
-> `docker ps -a`, to list containers (to know, for example, containers names)   
-> `docker rm CONTAINER_NAME`, to remove a container    
-> `docker start CONTAINER_NAME`, to start a stopped container (this command only starts the container, see the next command)    
-> `docker exec -it CONTAINER_NAME /bin/bash`, to run the started container (see command above)    
-> `docker rmi IMAGE_ID`, to remove images (use _docker images_ to know the <IMAGE_ID>)   
-> `docker system prune -a`, to remove all images     
+> `docker stop CONTAINER_NAME`, to stop a container.  
+> `docker ps -a`, to list containers (to know, for example, containers names).   
+> `docker rm CONTAINER_NAME`, to remove a container.    
+> `docker start CONTAINER_NAME`, to start a stopped container (this command only starts the container, see the next command).    
+> `docker exec -it CONTAINER_NAME /bin/bash`, to run the started container (see command above).    
+> `docker rmi IMAGE_ID`, to remove images (use _docker images_ to know the <IMAGE_ID>).   
+> `docker system prune -a`, to remove all images.     
 
 </br>
 
