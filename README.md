@@ -330,7 +330,7 @@ Once you have the tree, you are ready to run a selection analysis with different
 ***
 
 To visualize json results use [hyphy-vision tool](http://vision.hyphy.org/)    
-Remember that you can retrieve the result files from the container by moving or copying all output files into the shared folder (for more details about how to share this folder, see the instructions provided [here](https://www.ub.edu/molevol/Docencia/CG-MGG/docker-instructions-MGG.html). 
+Remember that you can retrieve the result files from the container by moving or copying all output files into the shared folder (for more details about how to share this folder, see the instructions provided [here](https://www.ub.edu/molevol/Docencia/CG-MGG/docker-instructions-MGG.html)). 
 
 ***
 
