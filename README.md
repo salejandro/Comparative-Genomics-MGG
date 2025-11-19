@@ -90,7 +90,7 @@ Instructions for downloading and setting it up can be found [here](https://www.u
    
 Here are some useful commands for working with containers and images:
 
-> `docker run -it --name CONTAINER_NAME -v SHARED_FOLDER:/CONTAINER_FOLDER repository/image:tag`, to launch a container (see [here](https://www.ub.edu/molevol/Docencia/CG-MGG/docker-instructions-MGG.html) for more details.       
+> `docker run -it --name CONTAINER_NAME -v SHARED_FOLDER:/CONTAINER_FOLDER repository/image:tag`, to launch a container (consult [here](https://www.ub.edu/molevol/Docencia/CG-MGG/docker-instructions-MGG.html) for more details).       
 > `exit` to exit a container
 > </br>      
 > Once you are outside the container:       
