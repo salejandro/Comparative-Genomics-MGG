@@ -299,7 +299,7 @@ In the second part of the practice, we focus on identifying Spike amino-acid pos
 
 Once you have the tree, you are ready to run a selection analysis with different methods implemented in the software hyhpy. For this practice, you will run [BUSTED](https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msv035), [FEL](https://academic.oup.com/mbe/article/22/5/1208/1066893), [MEME](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002764) and [BGM](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030231) analyses:</br>
 
-   + The first method is **BUSTED** (**B**ranch-Site **U**nrestricted **S**tatistical **T**est for **E**pisodic **D**iversification). By applying this method, you are asking whether the S-gene has experienced **positive selection at at least one site on at least one branch** of the tree (=one BA.1 genome):
+   + The first method is **BUSTED** (**B**ranch-Site **U**nrestricted **S**tatistical **T**est for **E**pisodic **D**iversification). By applying this method, you are asking whether the S-gene has experienced **positive selection at at least one site on at least one branch (gene-wide level, not site-specific - evidence ratios are not statistically robust)** of the tree (=one BA.1 genome):
 
       ```bash
       hyphy busted CPU=0 --alignment ${FILE}.S.uniq.fas --tree ${FILE}.S.uniq.tree --branches Internal --rates 3 --starting-points 5
