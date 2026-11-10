@@ -5,11 +5,11 @@
 </p>
 
 
-# COMPARATIVE GENOMICS (2025-2026)
+# COMPARATIVE GENOMICS (2026-2027)
 
 # Computer Lab
 
-Instructors: **Marta Riutort & Alejandro Sánchez**  
+Instructors: **Edmund R.R. Moody & Alejandro Sánchez**  
 
 </br>
 
@@ -83,7 +83,7 @@ Instructions for downloading and setting it up can be found [here](https://www.u
 
 </br>
 
-> **IMPORTANT WARNING: In general, bioinformatics programs for manipulating and analysing genomic data are only available for Linux (and to a lesser extent for MacOS). It is strongly recommended to switch to a Unix-based operating system to work with omics data**.
+> **IMPORTANT WARNING: In general, bioinformatics programs for manipulating and analyzing genomic data are only available for Linux (and to a lesser extent for MacOS). It is strongly recommended to switch to a Unix-based operating system to work with omics data**.
 
 
 </br>
@@ -338,9 +338,9 @@ Remember that you can retrieve the result files from the container by moving or 
 
 Contact:    
 
-M.Riutort: mriutort(at)ub.edu    
+Edmund R.R. Moody: edmund_moody(at)ub.edu   
 
-A. Sánchez: elsanchez(at)ub.edu 
+Alejandro Sánchez: elsanchez(at)ub.edu 
 
 
 
