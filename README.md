@@ -303,6 +303,7 @@ Once you have the tree, you are ready to run a selection analysis with different
 
       ```bash
       hyphy busted CPU=0 --alignment ${FILE}.S.uniq.fas --tree ${FILE}.S.uniq.tree --branches Internal --rates 3 --starting-points 5
+      ```
             
       > Setting CPU=0 in HyPhy tells the program to use all available processor cores, speeding up analyses by running calculations in parallel.
    
